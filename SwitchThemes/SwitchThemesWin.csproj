@@ -254,13 +254,13 @@
   </Target>
   <PropertyGroup>
     <PostBuildEvent Condition="'$(OS)' == 'Windows_NT' ">if "$(ConfigurationName)" == "Release" (
-rmdir Layouts /s /q
-robocopy $(ProjectDir)Layouts Layouts /E 
+rmdir layouts /s /q
+robocopy $(ProjectDir)layouts layouts /E
 EXIT /b 0
 )</PostBuildEvent>
     <PostBuildEvent Condition="'$(OS)' != 'Windows_NT' ">if [ "$(ConfigurationName)" == "Release" ]; then (
-rm -rf Layouts
-rsync $(ProjectDir)Layouts/ Layouts -r
+rm -rf layouts
+rsync $(ProjectDir)layouts/ layouts -r
 exit 0
 ); fi</PostBuildEvent>
   </PropertyGroup>

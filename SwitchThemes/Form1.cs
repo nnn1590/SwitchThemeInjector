@@ -53,9 +53,9 @@ namespace SwitchThemes
 			Templates.AddRange(DefaultTemplates.templates);
 			if (File.Exists("ExtraTemplates.json"))
 				Templates.AddRange(PatchTemplate.LoadTemplates());
-			if (Directory.Exists("Layouts"))
+			if (Directory.Exists("layouts"))
 			{
-				foreach (var f in Directory.GetFiles("Layouts").Where(x => x.EndsWith(".json")))
+				foreach (var f in Directory.GetFiles("layouts").Where(x => x.EndsWith(".json")))
 					Layouts.Add(f,LayoutPatch.LoadTemplate(File.ReadAllText(f)));
 			}
 
