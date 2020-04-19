@@ -39,9 +39,17 @@ Open the injector and go to the NXThemes builder tab, open any **720p JPG image*
 
 For making themes you can only use JPG images or DXT1-encoded DDS images. For best quality it's better to manually encode the image to DDS so you can have a preview of how will it look like with the compression applied. 
 
-### Linux Support
-The GUI only works on windows, on linux you can use the CLI through mono, you will need the `mono-complete` package.\
-Then you should be able to launch the app by running `mono SwitchThemes.exe help`.
+### GNU/Linux support
+Try SwitchThemesNoMaterial
+
+```bash
+git clone https://github.com/nnn1590/SwitchThemeInjector.git -b nnn1590
+cd SwitchThemeInjector/SwitchThemesNoMaterial
+nuget restore
+msbuild /t:build /p:Configuration=Release
+```
+
+Then you should be able to launch the app by running `mono (bin/Release/)SwitchThemes.exe help`.
 
 ### Command line usage (CLI)
 #### Building nxthemes
