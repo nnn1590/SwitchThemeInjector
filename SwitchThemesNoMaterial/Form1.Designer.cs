@@ -129,7 +129,7 @@
 			this.materialTabControl1.Controls.Add(this.InjectPage);
 			this.materialTabControl1.Controls.Add(this.AdvancedPage);
 			////野獣先輩
-			this.materialTabControl1.Location = new System.Drawing.Point(-1, 95);
+			this.materialTabControl1.Location = new System.Drawing.Point(-1, 32);
 			////田所浩二
 			this.materialTabControl1.Name = "materialTabControl1";
 			this.materialTabControl1.SelectedIndex = 0;
@@ -213,7 +213,7 @@
 			// materialLabel9
 			// 
 			//野獣先輩
-			this.materialLabel9.Font = new System.Drawing.Font("Roboto", 11F);
+			this.materialLabel9.Font = new System.Drawing.Font("Noto Sans", 11F);
 //AKYS System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
 			this.materialLabel9.Location = new System.Drawing.Point(9, 147);
 			////田所浩二
@@ -225,7 +225,7 @@
 			// materialLabel12
 			// 
 			//野獣先輩
-			this.materialLabel12.Font = new System.Drawing.Font("Roboto", 11F);
+			this.materialLabel12.Font = new System.Drawing.Font("Noto Sans", 11F);
 //AKYS System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
 			this.materialLabel12.Location = new System.Drawing.Point(12, 174);
 			////田所浩二
@@ -241,7 +241,7 @@
 			this.materialLabel16.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 			//野獣先輩
-			this.materialLabel16.Font = new System.Drawing.Font("Roboto", 11F);
+			this.materialLabel16.Font = new System.Drawing.Font("Noto Sans", 11F);
 //AKYS System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
 			this.materialLabel16.Location = new System.Drawing.Point(13, 116);
 			////田所浩二
@@ -286,10 +286,12 @@
 			// linkLabel3
 			// 
 			this.linkLabel3.Anchor = System.Windows.Forms.AnchorStyles.Top;
-//AKYS System.Drawing.SystemColors.MenuHighlight;
-			this.linkLabel3.Location = new System.Drawing.Point(2, 26);
+            this.linkLabel3.Font = new System.Drawing.Font("Noto Sans", 11F);
+            //AKYS System.Drawing.SystemColors.MenuHighlight;
+            this.linkLabel3.Location = new System.Drawing.Point(2, 56);
 			this.linkLabel3.Name = "linkLabel3";
 			this.linkLabel3.Size = new System.Drawing.Size(632, 21);
+            this.linkLabel3.AutoSize = true;
 			this.linkLabel3.TabIndex = 21;
 			this.linkLabel3.TabStop = true;
 			this.linkLabel3.Text = "What is an NXTheme file?";
@@ -312,7 +314,7 @@
 			// materialLabel15
 			// 
 			//野獣先輩
-			this.materialLabel15.Font = new System.Drawing.Font("Roboto", 11F);
+			this.materialLabel15.Font = new System.Drawing.Font("Noto Sans", 11F);
 //AKYS System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
 			this.materialLabel15.Location = new System.Drawing.Point(151, 57);
 			////田所浩二
@@ -334,7 +336,7 @@
 			// materialLabel11
 			// 
 			//野獣先輩
-			this.materialLabel11.Font = new System.Drawing.Font("Roboto", 11F);
+			this.materialLabel11.Font = new System.Drawing.Font("Noto Sans", 11F);
 //AKYS System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
 			this.materialLabel11.Location = new System.Drawing.Point(9, 89);
 			//田所浩二
@@ -348,7 +350,7 @@
 			this.materialLabel8.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 			//野獣先輩
-			this.materialLabel8.Font = new System.Drawing.Font("Roboto", 11F);
+			this.materialLabel8.Font = new System.Drawing.Font("Noto Sans", 11F);
 //AKYS System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
 			this.materialLabel8.Location = new System.Drawing.Point(2, 3);
 			//田所浩二
@@ -478,7 +480,7 @@
 			this.lblAppletIcons.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 			//野獣先輩
-			this.lblAppletIcons.Font = new System.Drawing.Font("Roboto", 11F);
+			this.lblAppletIcons.Font = new System.Drawing.Font("Noto Sans", 11F);
 //AKYS System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
 			this.lblAppletIcons.Location = new System.Drawing.Point(6, 43);
 			//田所浩二
@@ -504,7 +506,7 @@
 			this.lblCustomCommonLyt.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 			//野獣先輩
-			this.lblCustomCommonLyt.Font = new System.Drawing.Font("Roboto", 11F);
+			this.lblCustomCommonLyt.Font = new System.Drawing.Font("Noto Sans", 11F);
 //AKYS System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
 			this.lblCustomCommonLyt.Location = new System.Drawing.Point(6, 16);
 			//田所浩二
@@ -559,7 +561,7 @@
 			this.lblCustomLock.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 			//野獣先輩
-			this.lblCustomLock.Font = new System.Drawing.Font("Roboto", 11F);
+			this.lblCustomLock.Font = new System.Drawing.Font("Noto Sans", 11F);
 //AKYS System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
 			this.lblCustomLock.Location = new System.Drawing.Point(6, 16);
 			//田所浩二
@@ -586,7 +588,7 @@
 			this.materialLabel18.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 			//野獣先輩
-			this.materialLabel18.Font = new System.Drawing.Font("Roboto", 11F);
+			this.materialLabel18.Font = new System.Drawing.Font("Noto Sans", 11F);
 //AKYS System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
 			this.materialLabel18.Location = new System.Drawing.Point(3, 84);
 			//田所浩二
@@ -619,7 +621,7 @@
 			this.materialLabel14.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 			//野獣先輩
-			this.materialLabel14.Font = new System.Drawing.Font("Roboto", 11F);
+			this.materialLabel14.Font = new System.Drawing.Font("Noto Sans", 11F);
 //AKYS System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
 			this.materialLabel14.Location = new System.Drawing.Point(3, 8);
 			//田所浩二
@@ -649,7 +651,7 @@
 			// materialLabel13
 			// 
 			//野獣先輩
-			this.materialLabel13.Font = new System.Drawing.Font("Roboto", 11F);
+			this.materialLabel13.Font = new System.Drawing.Font("Noto Sans", 11F);
 //AKYS System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
 			this.materialLabel13.Location = new System.Drawing.Point(8, 67);
 			//田所浩二
@@ -661,7 +663,7 @@
 			// 
 			// SubredditLinkLbl
 			// 
-			this.SubredditLinkLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+			this.SubredditLinkLbl.Font = new System.Drawing.Font("Noto Sans", 11F);
 //AKYS System.Drawing.Color.Red;
 			this.SubredditLinkLbl.Location = new System.Drawing.Point(308, 70);
 			this.SubredditLinkLbl.Name = "SubredditLinkLbl";
@@ -674,7 +676,7 @@
 			// 
 			// QceanLinkLbl
 			// 
-			this.QceanLinkLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+			this.QceanLinkLbl.Font = new System.Drawing.Font("Noto Sans", 11F);
 //AKYS System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(137)))), ((int)(((byte)(218)))));
 			this.QceanLinkLbl.Location = new System.Drawing.Point(482, 70);
 			this.QceanLinkLbl.Name = "QceanLinkLbl";
@@ -689,7 +691,7 @@
 			// 
 			this.DiscordLinkLbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.DiscordLinkLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+			this.DiscordLinkLbl.Font = new System.Drawing.Font("Noto Sans", 11F);
 //AKYS System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(137)))), ((int)(((byte)(218)))));
 			this.DiscordLinkLbl.Location = new System.Drawing.Point(257, 38);
 			this.DiscordLinkLbl.Name = "DiscordLinkLbl";
@@ -703,7 +705,7 @@
 			// PatreonLinkLbl
 			// 
 			this.PatreonLinkLbl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.PatreonLinkLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+			this.PatreonLinkLbl.Font = new System.Drawing.Font("Noto Sans", 11F);
 //AKYS System.Drawing.Color.DarkOrange;
 			this.PatreonLinkLbl.Location = new System.Drawing.Point(485, 38);
 			this.PatreonLinkLbl.Name = "PatreonLinkLbl";
@@ -716,7 +718,7 @@
 			// 
 			// GithubLinkLbl
 			// 
-			this.GithubLinkLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+			this.GithubLinkLbl.Font = new System.Drawing.Font("Noto Sans", 11F);
 //AKYS System.Drawing.Color.Aqua;
 			this.GithubLinkLbl.Location = new System.Drawing.Point(9, 38);
 			this.GithubLinkLbl.Name = "GithubLinkLbl";
@@ -732,7 +734,7 @@
 			this.materialLabel10.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 			//野獣先輩
-			this.materialLabel10.Font = new System.Drawing.Font("Roboto", 11F);
+			this.materialLabel10.Font = new System.Drawing.Font("Noto Sans", 11F);
 //AKYS System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
 			this.materialLabel10.Location = new System.Drawing.Point(2, 2);
 			//田所浩二
@@ -750,7 +752,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
 //AKYS System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
 			this.tbPatches.BorderStyle = System.Windows.Forms.BorderStyle.None;
-			this.tbPatches.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.tbPatches.Font = new System.Drawing.Font("Noto Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 //AKYS System.Drawing.Color.White;
 			this.tbPatches.Location = new System.Drawing.Point(3, 110);
 			this.tbPatches.Multiline = true;
@@ -802,7 +804,7 @@
 			this.materialLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 			//野獣先輩
-			this.materialLabel1.Font = new System.Drawing.Font("Roboto", 11F);
+			this.materialLabel1.Font = new System.Drawing.Font("Noto Sans", 11F);
 //AKYS System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
 			this.materialLabel1.Location = new System.Drawing.Point(3, 6);
 			//田所浩二
@@ -818,7 +820,7 @@
 			this.lblDetected.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
 //AKYS System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
 			//野獣先輩
-			this.lblDetected.Font = new System.Drawing.Font("Roboto", 11F);
+			this.lblDetected.Font = new System.Drawing.Font("Noto Sans", 11F);
 //AKYS System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
 			this.lblDetected.Location = new System.Drawing.Point(366, 59);
 			//田所浩二
@@ -857,7 +859,7 @@
 			// materialLabel7
 			// 
 			//野獣先輩
-			this.materialLabel7.Font = new System.Drawing.Font("Roboto", 11F);
+			this.materialLabel7.Font = new System.Drawing.Font("Noto Sans", 11F);
 //AKYS System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
 			this.materialLabel7.Location = new System.Drawing.Point(6, 185);
 			//田所浩二
@@ -869,8 +871,8 @@
 			// linkLabel1
 			// 
 			this.linkLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-//AKYS System.Drawing.SystemColors.MenuHighlight;
-			this.linkLabel1.Location = new System.Drawing.Point(547, 153);
+            //AKYS System.Drawing.SystemColors.MenuHighlight;
+            this.linkLabel1.Location = new System.Drawing.Point(547, 153);
 			this.linkLabel1.Name = "linkLabel1";
 			this.linkLabel1.Size = new System.Drawing.Size(84, 21);
 			this.linkLabel1.TabIndex = 9;
@@ -895,7 +897,7 @@
 			// materialLabel6
 			// 
 			//野獣先輩
-			this.materialLabel6.Font = new System.Drawing.Font("Roboto", 11F);
+			this.materialLabel6.Font = new System.Drawing.Font("Noto Sans", 11F);
 //AKYS System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
 			this.materialLabel6.Location = new System.Drawing.Point(6, 153);
 			//田所浩二
@@ -926,7 +928,7 @@
 			// materialLabel2
 			// 
 			//野獣先輩
-			this.materialLabel2.Font = new System.Drawing.Font("Roboto", 11F);
+			this.materialLabel2.Font = new System.Drawing.Font("Noto Sans", 11F);
 //AKYS System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
 			this.materialLabel2.Location = new System.Drawing.Point(6, 98);
 			//田所浩二
@@ -955,7 +957,7 @@
 			// materialLabel3
 			// 
 			//野獣先輩
-			this.materialLabel3.Font = new System.Drawing.Font("Roboto", 11F);
+			this.materialLabel3.Font = new System.Drawing.Font("Noto Sans", 11F);
 //AKYS System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
 			this.materialLabel3.Location = new System.Drawing.Point(6, 247);
 			//田所浩二
@@ -970,7 +972,7 @@
 			this.materialLabel17.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 			//野獣先輩
-			this.materialLabel17.Font = new System.Drawing.Font("Roboto", 11F);
+			this.materialLabel17.Font = new System.Drawing.Font("Noto Sans", 11F);
 //AKYS System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
 			this.materialLabel17.Location = new System.Drawing.Point(13, 122);
 			//田所浩二
@@ -1066,7 +1068,7 @@
 			this.materialLabel5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 			//野獣先輩
-			this.materialLabel5.Font = new System.Drawing.Font("Roboto", 11F);
+			this.materialLabel5.Font = new System.Drawing.Font("Noto Sans", 11F);
 //AKYS System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
 			this.materialLabel5.Location = new System.Drawing.Point(3, 0);
 			//田所浩二
@@ -1165,7 +1167,7 @@
 			this.materialLabel4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 			//野獣先輩
-			this.materialLabel4.Font = new System.Drawing.Font("Roboto", 11F);
+			this.materialLabel4.Font = new System.Drawing.Font("Noto Sans", 11F);
 //AKYS System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
 			this.materialLabel4.Location = new System.Drawing.Point(0, 3);
 			//田所浩二
