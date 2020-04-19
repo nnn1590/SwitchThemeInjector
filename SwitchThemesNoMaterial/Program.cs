@@ -29,7 +29,7 @@ namespace SwitchThemes
 
 			bool IsMono = Type.GetType("Mono.Runtime") != null;
 
-			/*if (IsMono)
+			/*  if (IsMono)
 				AppDomain.CurrentDomain.AssemblyResolve += (sender, Assemblyargs) => {
 					String resourceName = "AssemblyLoadingAndReflection." +
 					   new AssemblyName(Assemblyargs.Name).Name + ".dll";

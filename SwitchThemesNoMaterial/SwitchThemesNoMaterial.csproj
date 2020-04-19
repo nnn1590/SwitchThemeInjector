@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CFBF6EF0-8237-442A-8997-A30072F0B9F8}</ProjectGuid>
+    <ProjectGuid>{E8551C98-09F1-4224-BAE5-0622725A30BC}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>SwitchThemes</RootNamespace>
     <AssemblyName>SwitchThemes</AssemblyName>
