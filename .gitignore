@@ -345,3 +345,6 @@ SwitchThemesOnline/html/analytics.txt
 *.zip
 NoFooter.json
 LeftAllGamesLayout.json
+
+bin
+obj
