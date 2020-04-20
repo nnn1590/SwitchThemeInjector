@@ -49,7 +49,7 @@ ARCH	:=	-march=armv8-a+crc+crypto -mtune=cortex-a57 -mtp=soft -fPIE
 CFLAGS	:=	-O2 -ffunction-sections \
 			$(ARCH) $(DEFINES)
 
-CFLAGS	+=	$(INCLUDE) -D__SWITCH__
+CFLAGS	+=	$(INCLUDE) -D__SWITCH__ -I$(CURDIR)/Libs/mbedtls/include -I/usr/include
 
 CXXFLAGS	:= $(CFLAGS) -std=gnu++17 -fpermissive
 
@@ -159,6 +159,8 @@ endif
 all: $(BUILD)
 
 $(BUILD):
+	@#echo $(BUILD)
+	@#neofetch
 	@[ -d $@ ] || mkdir -p $@
 	@$(MAKE) --no-print-directory -C $(BUILD) -f $(CURDIR)/Makefile
 
