@@ -34,7 +34,7 @@ TARGET		:=	$(notdir $(CURDIR))
 BUILD		:=	build
 SOURCES		:=	Libs/SOIL source/SwitchTools source/SwitchTools/lockpick source/UI source/UI/imgui source/Platform source/Pages source/Pages/ThemeEntry source/SwitchThemesCommon/SarcLib source/SwitchThemesCommon/Layouts source/SwitchThemesCommon/Layouts/Bflyt source/SwitchThemesCommon/Bntx source/SwitchThemesCommon/Bntx/DDSConv source/SwitchThemesCommon/BinaryReadWrite source/SwitchThemesCommon/Fonts source/SwitchThemesCommon source
 DATA		:=	data
-INCLUDES	:=	include Libs
+INCLUDES	:=	include Libs Libs/mbedtls/include
 EXEFS_SRC	:=	exefs_src
 ROMFS	:=	romfs
 
